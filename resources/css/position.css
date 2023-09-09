@@ -23,9 +23,6 @@
 	height: 250px;
 }
 
-.img-container{
-    
-}
-.card-img-top {
-	overflow: hidden;
+.card {
+	width: 18rem;
 }
