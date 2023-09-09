@@ -1,1 +1,13 @@
+@import url(normalize.css);
+@import url(position.css);
 @import url(carrousel.css);
+
+
+/* PALETA DE COLORES */
+:root {
+	--yinmn-blue: rgba(27, 82, 153, 1);
+	--english-violet: rgba(105, 77, 117, 1);
+	--light-blue: rgba(159, 194, 204, 1);
+	--cornsilk: rgba(241, 236, 206, 1);
+	--dark-purple: rgba(51, 24, 50, 1);
+}

@@ -1,0 +1,25 @@
+:root {
+	--site-width: 980px;
+	--azul: rgba(27, 82, 153, 1);
+	--violeta: rgba(105, 77, 117, 1);
+	--celeste: rgba(159, 194, 204, 1);
+	--amarillo: rgba(241, 236, 206, 1);
+	--bordo: rgba(51, 24, 50, 1);
+}
+
+.body-container {
+	margin-left: calc((100% - var(--site-width)) / 2);
+	width: var(--site-width);
+}
+
+.tag {
+	border-radius: 50%;
+	background-color: var(--azul);
+}
+.main-tag {
+	position: absolute;
+	top: 18%;
+	right: 4%;
+	width: 250px;
+	height: 250px;
+}
