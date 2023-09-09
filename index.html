@@ -142,28 +142,28 @@
 					<!-- Imagen principal -->
 					<img src="/resources/img/hero.webp" alt="mujer sonriendo" class="img-fluid"/>
 					<!-- 				Etiqueta sobre imagen -->
-					<div id="main-tag" class="tag main-tag d-flex flex-column justify-content-center align-items-center ali">
+					<div id="main-tag" class="tag main-tag d-flex flex-column justify-content-center align-items-center position-absolute">
 						<h2 class="text-center">Nuevas de otoño</h2>
-						<a href="#" class="tag-link d-flex justify-content-center align-items-center">
-						<p class="mb-0">Comprar ahora</p>
-						<i class="fa-solid fa-chevron-right ml-2"></i>
-					</a>
+						<a href="#" class="tag-link d-flex justify-content-center align-items-center mb-0">
+							Comprar ahora <i class="fa-solid fa-chevron-right ml-2"></i>
+						</a>
 					</div>
 				</section>
 
-				<section id="categorias">
-					<div class="card-group row row-cols-1 row-cols-md-3 g-3">
+				<section id="categorias" class="w-100 d-flex justify-content-center">
+					<div class="card-group row row-cols-1 row-cols-md-3 g-3 w-90 my-2 text-center">
 						<div class="col">
-							<div class="card h-100">
+							<div class="card h-100 position-relative">
 								<div class="card-body">
 									<h5 class="card-title">OFERTA</h5>
-									<img
-										src="/resources/img/bufanda.webp"
-										class="card-img-top"
-										alt="bufanda oferta"
-									/>
-
-									<p class="card-text">-10%</p>
+									<div class="img-container">
+										<img
+											src="/resources/img/bufanda.webp"
+											class="card-img-top "
+											alt="bufanda oferta"
+										/>
+								</div>
+									<p class="card-text" >-10%</p>
 								</div>
 							</div>
 						</div>
@@ -305,6 +305,7 @@
 								<span class="visually-hidden">Next</span>
 							</button>
 						</div>
+					</div>
 				</section>
 			</main>
 		</div>

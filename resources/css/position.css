@@ -17,9 +17,15 @@
 	background-color: var(--azul);
 }
 .main-tag {
-	position: absolute;
 	top: 18%;
 	right: 4%;
 	width: 250px;
 	height: 250px;
+}
+
+.img-container{
+    
+}
+.card-img-top {
+	overflow: hidden;
 }

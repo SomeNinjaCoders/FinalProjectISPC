@@ -10,10 +10,6 @@ footer {
 	--bs-gutter-x: 0 !important;
 }
 
-section#categorias {
-	width: 80%;
-}
-
 a {
 	text-decoration: none;
 	line-height: inherit;
