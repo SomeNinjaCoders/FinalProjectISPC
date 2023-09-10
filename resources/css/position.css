@@ -1,5 +1,6 @@
 :root {
 	--site-width: 980px;
+	--icon-size: 26px;
 	--azul: rgba(27, 82, 153, 1);
 	--violeta: rgba(105, 77, 117, 1);
 	--celeste: rgba(159, 194, 204, 1);
@@ -26,3 +27,9 @@
 .card {
 	width: 18rem;
 }
+
+svg {
+	height: var(--icon-size, 26px) !important;
+	width: var(--icon-size, 26px) !important;
+}
+
