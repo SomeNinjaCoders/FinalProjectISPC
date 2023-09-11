@@ -15,13 +15,15 @@
 
 .tag {
 	border-radius: 50%;
-	background-color: var(--azul);
+	background-color: var(--amarillo);
+	padding: 1%;
 }
 .main-tag {
-	top: 18%;
-	right: 4%;
+	top: 4%;
+	right: 3%;
 	width: 250px;
 	height: 250px;
+	opacity: 0.5;
 }
 
 .card {
