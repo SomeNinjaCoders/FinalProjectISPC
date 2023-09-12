@@ -11,7 +11,10 @@
 .body-container {
 	margin-left: calc((100% - var(--site-width)) / 2);
 	width: var(--site-width);
+	
 }
+
+
 
 .tag {
 	border-radius: 50%;
