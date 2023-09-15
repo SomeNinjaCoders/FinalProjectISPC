@@ -40,31 +40,45 @@
 					id="menu"
 					class="navbar navbar-expand-lg row p-2 pt-3 pb-3 d-flex"
 				>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 					<div class="container-fluid">
-						<div id="login" class="col-md-2">
-							<svg
-								data-bbox="0 0 50 50"
-								data-type="shape"
-								xmlns="http://www.w3.org/2000/svg"
-								width="50"
-								height="50"
-								viewBox="0 0 50 50"
-							>
-								<g>
-									<path
-										d="M25 48.077c-5.924 0-11.31-2.252-15.396-5.921 2.254-5.362 7.492-8.267 15.373-8.267 7.889 0 13.139 3.044 15.408 8.418-4.084 3.659-9.471 5.77-15.385 5.77m.278-35.3c4.927 0 8.611 3.812 8.611 8.878 0 5.21-3.875 9.456-8.611 9.456s-8.611-4.246-8.611-9.456c0-5.066 3.684-8.878 8.611-8.878M25 0C11.193 0 0 11.193 0 25c0 .915.056 1.816.152 2.705.032.295.091.581.133.873.085.589.173 1.176.298 1.751.073.338.169.665.256.997.135.515.273 1.027.439 1.529.114.342.243.675.37 1.01.18.476.369.945.577 1.406.149.331.308.657.472.98.225.446.463.883.714 1.313.182.312.365.619.56.922.272.423.56.832.856 1.237.207.284.41.568.629.841.325.408.671.796 1.02 1.182.22.244.432.494.662.728.405.415.833.801 1.265 1.186.173.154.329.325.507.475l.004-.011A24.886 24.886 0 0 0 25 50a24.881 24.881 0 0 0 16.069-5.861.126.126 0 0 1 .003.01c.172-.144.324-.309.49-.458.442-.392.88-.787 1.293-1.209.228-.232.437-.479.655-.72.352-.389.701-.78 1.028-1.191.218-.272.421-.556.627-.838.297-.405.587-.816.859-1.24a26.104 26.104 0 0 0 1.748-3.216c.208-.461.398-.93.579-1.406.127-.336.256-.669.369-1.012.167-.502.305-1.014.44-1.53.087-.332.183-.659.256-.996.126-.576.214-1.164.299-1.754.042-.292.101-.577.133-.872.095-.89.152-1.791.152-2.707C50 11.193 38.807 0 25 0"
-									></path>
-								</g>
-							</svg>
-							<span>Entrar</span>
-						</div>
-						<div id="navbarNav" class="col-md-8">
+						<div
+							id="navbarSupportedContent"
+							class="collapse navbar-collapse"
+						>
+							<div id="login" class="col-md-2 flex-grow-1">
+								<svg
+									data-bbox="0 0 50 50"
+									data-type="shape"
+									xmlns="http://www.w3.org/2000/svg"
+									width="50"
+									height="50"
+									viewBox="0 0 50 50"
+								>
+									<g>
+										<path
+											d="M25 48.077c-5.924 0-11.31-2.252-15.396-5.921 2.254-5.362 7.492-8.267 15.373-8.267 7.889 0 13.139 3.044 15.408 8.418-4.084 3.659-9.471 5.77-15.385 5.77m.278-35.3c4.927 0 8.611 3.812 8.611 8.878 0 5.21-3.875 9.456-8.611 9.456s-8.611-4.246-8.611-9.456c0-5.066 3.684-8.878 8.611-8.878M25 0C11.193 0 0 11.193 0 25c0 .915.056 1.816.152 2.705.032.295.091.581.133.873.085.589.173 1.176.298 1.751.073.338.169.665.256.997.135.515.273 1.027.439 1.529.114.342.243.675.37 1.01.18.476.369.945.577 1.406.149.331.308.657.472.98.225.446.463.883.714 1.313.182.312.365.619.56.922.272.423.56.832.856 1.237.207.284.41.568.629.841.325.408.671.796 1.02 1.182.22.244.432.494.662.728.405.415.833.801 1.265 1.186.173.154.329.325.507.475l.004-.011A24.886 24.886 0 0 0 25 50a24.881 24.881 0 0 0 16.069-5.861.126.126 0 0 1 .003.01c.172-.144.324-.309.49-.458.442-.392.88-.787 1.293-1.209.228-.232.437-.479.655-.72.352-.389.701-.78 1.028-1.191.218-.272.421-.556.627-.838.297-.405.587-.816.859-1.24a26.104 26.104 0 0 0 1.748-3.216c.208-.461.398-.93.579-1.406.127-.336.256-.669.369-1.012.167-.502.305-1.014.44-1.53.087-.332.183-.659.256-.996.126-.576.214-1.164.299-1.754.042-.292.101-.577.133-.872.095-.89.152-1.791.152-2.707C50 11.193 38.807 0 25 0"
+										></path>
+									</g>
+								</svg>
+								<span class="login-text">Entrar</span>
+							</div>
 							<ul
-								class="list-container navbar-nav justify-content-center "
+								class="list-container navbar-nav justify-content-center"
 							>
 								<li class="nav-item">
 									<a
-										class="nav-link active"
+										class="nav-link hover-3"
 										aria-current="page"
 										href="#"
 										>Inicio</a
@@ -72,26 +86,26 @@
 								</li>
 								<li class="nav-item">
 									<a
-										class="nav-link active"
+										class="nav-link hover-3"
 										aria-current="page"
-										href="#"
+										href="about.html"
 										>Sobre Nosotros</a
 									>
 								</li>
 								<li class="nav-item">
 									<a
-										class="nav-link active"
+										class="nav-link hover-3"
 										aria-current="page"
-										href="#"
-										>Contacto</a
+										href="shop.html"
+										>Productos</a
 									>
 								</li>
 								<li class="nav-item">
 									<a
-										class="nav-link active"
+										class="nav-link hover-3"
 										aria-current="page"
-										href="#"
-										>Vestidos</a
+										href="contact.html"
+										>Contacto</a
 									>
 								</li>
 							</ul>
@@ -101,6 +115,7 @@
 							<div
 								class="d-flex d-none d-md-flex flex-row align-items-center justify-content-end"
 							>
+								<span class="login-text">Carrito</span>
 								<span class="shop-bag"
 									><svg
 										xmlns="http://www.w3.org/2000/svg"
@@ -127,8 +142,8 @@
 										>
 											0
 										</text>
-									</svg></span>
-								
+									</svg></span
+								>
 							</div>
 						</div>
 					</div>
@@ -143,16 +158,17 @@
 						class="img-fluid"
 					/>
 					<!-- 				Etiqueta sobre imagen -->
-					<a href="#" class="tag-link d-flex justify-content-center align-items-center mb-0">
-					<div
-						id="main-tag"
-						class="tag main-tag d-flex flex-column justify-content-center align-items-center position-absolute"
+					<a
+						href="#"
+						class="tag-link d-flex justify-content-center align-items-center mb-0"
 					>
-						<h2 class="text-center">Nueva temporada</h2>
-						
-						
-					</div>
-				</a>
+						<div
+							id="main-tag"
+							class="tag main-tag d-flex flex-column justify-content-center align-items-center position-absolute"
+						>
+							<h2 class="text-center">Nueva temporada</h2>
+						</div>
+					</a>
 				</section>
 
 				<section
@@ -160,35 +176,37 @@
 					class="w-100 d-flex justify-content-center mb-5"
 				>
 					<div
-						class="card-group row row-cols-1 row-cols-md-3 g-3 w-90 mt-2 text-center"
+						class="row row-cols-1 row-cols-md-3 g-3 w-90 mt-2"
 					>
-						<div  class="col">
+						<div class="col">
 							<div id="ofertas" class="card h-100">
-								<div class="card-body  d-flex flex-column justify-content-center">
+								<div
+									class="card-body d-flex flex-column justify-content-center"
+								>
 									<h5 class="card-title">
 										<a
-										class="nav-link active"
-										aria-current="page"
-										href="#"
-										>OFERTAS</a>    
+											class="nav-link"
+											aria-current="page"
+											href="#"
+											>OFERTAS</a
+										>
 									</h5>
-									
 								</div>
 							</div>
 						</div>
-						<div  class="col">
+						<div class="col">
 							<div id="club" class="card h-100">
 								<div
 									class="card-body d-flex flex-column justify-content-center"
 								>
-								<h5 class="card-title">
-									<a
-									class="nav-link active"
-									aria-current="page"
-									href="#"
-									>UNETE AL CLUB</a>    
-								</h5>
-									
+									<h5 class="card-title">
+										<a
+											class="nav-link"
+											aria-current="page"
+											href="#"
+											>UNETE AL CLUB</a
+										>
+									</h5>
 								</div>
 							</div>
 						</div>
@@ -197,13 +215,14 @@
 								<div
 									class="card-body position-relative d-flex justify-content-center align-items-center"
 								>
-								<h5 class="card-title">
-									<a
-									class="nav-link active"
-									aria-current="page"
-									href="#"
-									>ACCESORIOS</a>    
-								</h5>
+									<h5 class="card-title">
+										<a
+											class="nav-link"
+											aria-current="page"
+											href="#"
+											>ACCESORIOS</a
+										>
+									</h5>
 								</div>
 							</div>
 						</div>
@@ -213,6 +232,7 @@
 				<section id="destacados" class="mb-5">
 					<div id="carrousel">
 						<h4>ARTICULOS DESTACADOS</h4>
+
 						<div id="carouselExampleControls" class="carousel">
 							<div class="carousel-inner">
 								<article class="carousel-item active">
@@ -323,7 +343,7 @@
 		<footer
 			class="d-flex flex-wrap justify-content-around align-items-center py-3 border-top bg-body-tertiary"
 		>
-			<div class="col-md-6 d-flex align-items-center">
+			<div class="col-md-1 d-flex align-items-center">
 				<a
 					href="/"
 					class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
@@ -334,21 +354,23 @@
 						alt="logo"
 					/>
 				</a>
-				<span class="mb-3 mb-md-0 text-muted align-self-end"
-					>Ⓒ2023 Blue Moon - Store. Todos los derechos
+			</div>
+			<div class="col-md-5 d-flex align-items-start">
+				<span class="mb-3 mb-md-0 text-muted align-self-start"
+					>Ⓒ 2023 Blue Moon - Store. Todos los derechos
 					reservados.</span
 				>
 			</div>
 
 			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
 				<li class="ms-3">
-					<a class="text-muted" href="#">
-						<i class="fa-brands fa-facebook"></i
+					<a class="" href="#">
+						<i class="social fa-brands fa-facebook"></i
 					></a>
 				</li>
 				<li class="ms-3">
 					<a class="text-muted" href="#">
-						<i class="fa-brands fa-instagram"></i
+						<i class="social fa-brands fa-instagram"></i
 					></a>
 				</li>
 			</ul>
@@ -370,4 +392,3 @@
 		<script src="bootstrap-custom.js"></script>
 	</body>
 </html>
-
