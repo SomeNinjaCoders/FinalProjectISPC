@@ -111,11 +111,14 @@ svg {
 .social {
 	color: var(--c);
 }
+#social {
+	justify-content: flex-end !important;
+}
 
 /* RESPONSIVE */
 /*Media Queries (Mobile Last)*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
 	/*BODY CONTAINER*/
 	.body-container {
 		--site-width: 90%;
@@ -141,7 +144,9 @@ svg {
 	#menu ul > li {
 		padding-top: 1rem;
 	}
-	/*ver cart*/
+	#cart {
+		display: none;
+	}
 
 	/*HERO*/
 	.main-tag {
@@ -165,5 +170,9 @@ svg {
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+	}
+
+	#social {
+		justify-content: center !important;
 	}
 }
