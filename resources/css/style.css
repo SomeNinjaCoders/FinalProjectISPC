@@ -107,6 +107,16 @@ svg {
 	color: var(--cornsilk);
 }
 
+#articulo-esencia{
+	display: flex;
+	justify-content: center;
+}
+
+#logo-esencia{
+	display: flex;
+	justify-content: space-around;
+}
+
 /*FOOTER*/
 .social {
 	color: var(--c);
