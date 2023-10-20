@@ -77,6 +77,18 @@ svg {
 	font-size: 0.8rem;
 }
 
+/*ABOUT*/
+
+h4{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#cierre{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 
 
 /*HERO*/
@@ -89,12 +101,13 @@ svg {
 	padding: 1%;
 }
 .main-tag {
-	--width-tag: 17rem;
+	--width-tag: 10rem;
 	top: 4%;
 	right: 3%;
 	width: var(--width-tag);
 	height: var(--width-tag);
-	opacity: 0.5;
+	background-color: #08526a7e;
+	opacity: 1.5;
 }
 /*TARJETAS DE CATEGORIAS*/
 .card {
