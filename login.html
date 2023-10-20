@@ -1,54 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blue Moon - Store</title>
+		<!-- Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous"
+		>
+		<!-- FontAwesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		>
+		<link rel="stylesheet" href="./resources/css/style.css" >
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/css/style.css">
-	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<body>
+		<div class="body-container">
+			<header class="container-fluid">
+				<div id="logo" class="logo-header text-center">
+					<a class="navbar-brand" href="#">
+						<img
+							src="resources/img/blue-moon-logo.png"
+							alt="Logo"
+							width="250"
+							class="d-inline-block align-text-top"
+						>
+					</a>
+		 		</div>
+				<nav
+					id="menu"
+					class="navbar navbar-expand-lg row p-2 pt-3 pb-3 d-flex"
+				>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="container-fluid" >
+						<div
+							id="navbarSupportedContent"
+							class="collapse navbar-collapse"
+						>
+							<div id="login" class="col-md-2 flex-grow-1">
+								<a href="login.html">
+								<svg 
+									xmlns="http://www.w3.org/2000/svg" 
+									height="1em" 
+									viewBox="0 0 512 512">
+									<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M256 288A144 144 0 1 0 256 0a144 144 0 1 0 0 288zm-94.7 32C72.2 320 0 392.2 0 481.3c0 17 13.8 30.7 30.7 30.7H481.3c17 0 30.7-13.8 30.7-30.7C512 392.2 439.8 320 350.7 320H161.3z"/>
+						        </svg>
+								<span class="login-text">Iniciar sesión</span>
+							    </a>
+							</div>
+							<ul
+								class="list-container navbar-nav justify-content-center"
+							>
+								<li class="nav-item">
+									<a
+										class="nav-link hover-3"
+										aria-current="page"
+										href=""
+										>Inicio</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-link hover-3"
+										aria-current="page"
+										href="about.html"
+										>Sobre Nosotros</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-link hover-3"
+										aria-current="page"
+										href="shop.html"
+										>Productos</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										class="nav-link hover-3"
+										aria-current="page"
+										href="contact.html"
+										>Contacto</a
+									>
+								</li>
+								<li class="nav-item">
+									<a href="shop.html">
+									<svg 
+									xmlns="http://www.w3.org/2000/svg" 
+									height="1em" 
+									viewBox="0 0 448 512">
+									<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+									<path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/>
+								</svg>
+								</a>
+								</li>
+							</ul>
+						</div>
 
+						
+					</div>
+				</nav>
+			</header>
+		</div>	
+		
+		<footer
+			class="d-flex flex-wrap justify-content-around align-items-center py-3 border-top bg-body-tertiary"
+		>
+			<div class="col-md-1 d-flex align-items-center">
+				<a
+					href="/"
+					class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+				>
+					<img
+						width="75"
+						src="resources/img/blue-moon-logo.png"
+						alt="logo"
+					>
+				</a>
+			</div>
+			<div class="col-md-5 justify-content-center">
+				<span class="d-flex mb-3 mb-md-0 text-muted"
+					>Ⓒ 2023 Blue Moon - Store. Todos los derechos
+					reservados.</span
+				>
+			</div>
 
-
-    
-    <title>PROYECTO BLUE MOON LOGIN</title>
-</head>
-
-<body>
-    
-    <div class="container-form sign-up">
-        <div class="welcome-back">
-            <div class="message">
-                <a href="http://127.0.0.1:5502/index.html"> <img src="resources/img/blue-moon-logo.png" class="imagenlogo" ></a>
-                <h1>Bienvenido </h1>
-                <p>Si ya tienes una cuenta por favor inicia sesion aqui</p>
-                <button class="sign-up-btn">Iniciar Sesion</button>
-            </div>
-        </div>
-        <form class="formulario">
-            <h2 class="create-account">Crear una cuenta gratis</h2>
-            <div class="iconos">
-                <div class="border-icon">
-                    <i class='bx bxl-instagram'></i>
-                </div>
-                <div class="border-icon">
-                    <i class='bx bxl-gmail' ></i>
-                </div>
-                <div class="border-icon">
-                    <i class='bx bxl-facebook-square'></i>
-                </div>
-            </div>
-            
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="E-mail">
-            <input type="password" placeholder="Contraseña">
-            <input type="button" value="Registrarse">
-        </form>
-    </div>
-    
-        
-    </div>
-    
-</body>
-
+			<ul id="social" class="nav col-md-4 list-unstyled d-flex">
+				<li class="ms-3">
+					<a class="" href="#">
+						<svg 
+						xmlns="http://www.w3.org/2000/svg" 
+						height="1em" 
+						viewBox="0 0 512 512">
+						<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+						<path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
+					</svg>
+				</a>
+				</li>
+				<li class="ms-3">
+					<a class="text-muted" href="#">
+						<svg 
+						xmlns="http://www.w3.org/2000/svg" 
+						height="1em" 
+						viewBox="0 0 448 512">
+						<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+						<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+					</svg>
+				</a>
+				</li>
+			</ul>
+		</footer>
+		<!-- Scripts -->
+		<!-- Bootstrap -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"
+		></script>
+		<!-- JQuery -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+			integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./resources/css/bootstrap-custom.js"></script>
+	</body>
 </html>
