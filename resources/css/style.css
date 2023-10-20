@@ -77,6 +77,8 @@ svg {
 	font-size: 0.8rem;
 }
 
+
+
 /*HERO*/
 #hero {
 	margin-bottom: 10px;
@@ -174,6 +176,7 @@ svg {
 }
 #social {
 	justify-content: flex-end !important;
+
 }
 
 /* RESPONSIVE */
