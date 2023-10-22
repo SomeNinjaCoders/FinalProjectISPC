@@ -1,5 +1,4 @@
-@import url(normalize.css);
-@import url(carrousel.css);
+
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
 
 * {
@@ -193,6 +192,146 @@ h4{
 	border-radius: 50%;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+/*CONTACTO*/
+
+#tarjeta-creador1{
+	display: flex;
+	border: rgba(119, 119, 119, 0.571) 1px solid;
+	flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+	padding: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+	border-radius: 10px;
+	background-color:  #bd9a848c;
+	margin: 50px
+}
+
+#tarjeta-creador2{
+	display: flex;
+	border: rgba(119, 119, 119, 0.571) 1px solid;
+	flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+	padding: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+	border-radius: 10px;
+	background-color:   #69797d80;
+	margin: 50px
+}
+
+/*LOGIN*/
+
+.contenedor, #contenedor{
+	display: flex;
+	flex-direction: row;
+	margin: 20px 50px;
+}
+
+.iniciar-sesion{
+	display: flex;
+	border: rgba(119, 119, 119, 0.571) 1px solid;
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	padding: 30px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	width: 45%;
+	border-radius: 10px;
+	background-color: #69797d80;
+}
+
+#ini-ses{
+	padding: 30px;
+}
+
+input{
+	
+	background-color: #eee;
+	border: none;
+	border-radius: 8px;
+	padding: 14px 20px;
+	margin: 8px 0;
+	width: 100%;
+	font-size: 20px;
+}
+
+
+.club{
+	display: flex;
+	border: rgba(119, 119, 119, 0.571) 1px solid;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding: 30px;
+	margin-bottom: 30px;
+	width: 55%;
+	border-radius: 10px;
+	background-color:  #bd9a848c;
+	margin-left: 20px;
+}
+
+#nueva-tarjeta{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#tarjeta-login{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#invitacion{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#formulario{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#boton-club, #boton-iniciar{
+    display: flex;
+    justify-content: center;
+	padding-top: 10px;
+}
+
+#boton-club, #boton-iniciar{
+    border-radius: 10px;
+    border-color: var(--english-violet);
+    background-color: transparent;
+    color: var(--english-violet);
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px 80px;
+    letter-spacing: 2px;
+    margin: 30px auto;
+}
+
+#boton-club span, #boton-iniciar span{
+    margin: auto;
+}
+
+#boton-club:hover, #boton-iniciar:hover{
+    border-radius: 10px;
+    border-color: #0a0909;
+    background-color: transparent;
+    color: #060505;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px 80px;
+    letter-spacing: 2px;
+    margin: 30px auto;
 }
 
 /*FOOTER*/
