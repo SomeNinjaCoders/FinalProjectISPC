@@ -194,6 +194,97 @@ h4{
 	transform: translateY(-50%);
 }
 
+/*LOGIN*/
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+}
+
+.iniciar-sesion{
+	display: flex;
+	border: black 1px solid;
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	padding: 30px;
+	margin-bottom: 30px;
+	width: 45%;
+}
+
+#ini-ses{
+	padding: 30px;
+}
+
+input{
+	
+	background-color: #eee;
+	border: none;
+	border-radius: 8px;
+	padding: 14px 20px;
+	margin: 8px 0;
+	width: 100%;
+	font-size: 20px;
+}
+
+
+.club{
+	display: flex;
+	border: black 1px solid;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding: 30px;
+	margin-bottom: 30px;
+	width: 55%;
+}
+
+#invitacion{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#formulario{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#boton-club, #boton-iniciar{
+    display: flex;
+    justify-content: center;
+	padding-top: 10px;
+}
+
+#boton-club, #boton-iniciar{
+    border-radius: 10px;
+    border-color: var(--english-violet);
+    background-color: transparent;
+    color: var(--light-blue);
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px 80px;
+    letter-spacing: 2px;
+    margin: 30px auto;
+}
+
+#boton-club span, #boton-iniciar span{
+    margin: auto;
+}
+
+#boton-club:hover, #boton-iniciar:hover{
+    border-radius: 10px;
+    border-color: #0a0909;
+    background-color: transparent;
+    color: #060505;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px 80px;
+    letter-spacing: 2px;
+    margin: 30px auto;
+}
+
 /*FOOTER*/
 .social {
 	color: var(--c);

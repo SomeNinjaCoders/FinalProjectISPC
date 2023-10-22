@@ -34,7 +34,7 @@ function iniciaSesion(){
             Swal.fire({
                 title: 'Por favor complete todos los campos obligatorios',
                 confirmButtonText: "Entendido",
-                confirmButtonColor: '#a18173',
+                confirmButtonColor: 'rgba(159, 194, 204, 1)',
                 padding: "2rem",
                 icon: "warning",
                 background: "#eee",
