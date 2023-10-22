@@ -402,8 +402,35 @@ input{
 		display: flex;
 	}
 
+	#circle {
+		--width-tag: 8rem;
+	}
 
+	/*CONTACTO*/
 
+	.contenedor, #contenedor{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	#tarjeta-creador2, #tarjeta-creador1 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: max-content;
+		margin: 20px 0;
+	}
+
+	.iniciar-sesion, .club {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: max-content;
+		margin: 20px 0;
+	}
 
 	/*FOOTER*/
 	footer {
