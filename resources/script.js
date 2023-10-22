@@ -66,11 +66,9 @@ function formulario(){
         <div id="nueva-tarjeta">
             <h2>${usuario.nombre} ${usuario.apellido}</h2>
 
-            <p>¡Bienvenid@ a nuestro club!</p>
+            <h3>¡Bienvenid@ a nuestro club!</h3>
 
-            <p>Te dejamos un regalito de bienvenida en tu correo</p>
-
-            <i class="fa-sharp fa-solid fa-gift"></i>
+            
             
         </div>
         `
