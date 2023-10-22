@@ -2,6 +2,27 @@
 @import url(carrousel.css);
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+header,
+footer {
+	--bs-gutter-x: 0 !important;
+}
+
+a {
+	text-decoration: none;
+	line-height: inherit;
+	color: inherit;
+}
+
+
+
+
 /* PALETA DE COLORES */
 :root {
 	--site-width: 980px;
@@ -56,6 +77,20 @@ svg {
 	font-size: 0.8rem;
 }
 
+/*ABOUT*/
+
+h4{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#cierre{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
 /*HERO*/
 #hero {
 	margin-bottom: 10px;
@@ -65,13 +100,26 @@ svg {
 	background-color: var(--cornsilk);
 	padding: 1%;
 }
-.main-tag {
+
+#circle{
+
 	--width-tag: 17rem;
 	top: 4%;
 	right: 3%;
 	width: var(--width-tag);
 	height: var(--width-tag);
+	background-color: #87b3c1be;
 	opacity: 0.5;
+
+}
+.main-tag {
+	--width-tag: 10rem;
+	top: 4%;
+	right: 3%;
+	width: var(--width-tag);
+	height: var(--width-tag);
+	background-color: #08526a7e;
+	opacity: 1.5;
 }
 /*TARJETAS DE CATEGORIAS*/
 .card {
@@ -117,12 +165,43 @@ svg {
 	justify-content: space-around;
 }
 
+.carousel-inner {
+	padding: 1em;
+}
+.card {
+	margin: 0 0.5em;
+	box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+	border: none;
+}
+
+.card .img-wrapper {
+	max-width: 100%;
+	height: 13em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card img {
+	max-height: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	background-color: #e1e1e1;
+	width: 6vh;
+	height: 6vh;
+	border-radius: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 /*FOOTER*/
 .social {
 	color: var(--c);
 }
 #social {
 	justify-content: flex-end !important;
+
 }
 
 /* RESPONSIVE */
@@ -175,6 +254,18 @@ svg {
 		width: inherit;
 	}
 
+	.carousel-item {
+		margin-right: 0;
+		flex: 0 0 33.333333%;
+		display: block;
+	}
+	.carousel-inner {
+		display: flex;
+	}
+
+
+
+
 	/*FOOTER*/
 	footer {
 		display: flex;
@@ -184,5 +275,22 @@ svg {
 
 	#social {
 		justify-content: center !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel-item {
+		margin-right: 0;
+		flex: 0 0 33.333333%;
+		display: block;
+	}
+	.carousel-inner {
+		display: flex;
+	}
+}
+
+@media (max-width: 767px) {
+	.card .img-wrapper {
+		height: 17em;
 	}
 }
