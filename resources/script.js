@@ -84,7 +84,8 @@ function formulario(){
             nombre: socio.nombre.value,
             apellido: socio.apellido.value,
             email: socio.email.value,
-            contrasena: socio.contrasena.value
+            contrasena: socio.contrasena.value,
+            
 
         })
 
@@ -98,7 +99,7 @@ function formulario(){
                 background: "#eee",
             })
         
-            }
+            } 
         else{
             tarjetaClub()
         }
