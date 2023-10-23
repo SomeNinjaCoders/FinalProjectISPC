@@ -230,12 +230,12 @@ h4{
 	
 }
 
-.imagen-shop{
+.imagen-shopp{
 	display: flex;
 	justify-content: center;
 }
 
-#imagen-shop{
+.imagen-shop{
 	display: flex;
 	width: 90%;
 	
