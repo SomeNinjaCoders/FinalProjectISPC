@@ -84,11 +84,12 @@ function formulario(){
             nombre: socio.nombre.value,
             apellido: socio.apellido.value,
             email: socio.email.value,
-            contrasena: socio.contrasena.value
+            contrasena: socio.contrasena.value,
+            contrasenaver: socio.contrasenaver.value
 
         })
 
-        if (!nombre.value || !apellido.value || !email.value || !contrasena.value) {
+        if (!nombre.value || !apellido.value || !email.value || !contrasena.value || !contrasena.value ) {
             Swal.fire({
                 title: 'Por favor complete todos los campos obligatorios',
                 confirmButtonText: "Entendido",
@@ -98,7 +99,18 @@ function formulario(){
                 background: "#eee",
             })
         
-            }
+            } 
+        else if (contrasena.value !== contrasenaver.value){
+            Swal.fire({
+                title: 'Las contraseñas no coinciden',
+                confirmButtonText: "Entendido",
+                confirmButtonColor: '#a18173',
+                padding: "2rem",
+                icon: "warning",
+                background: "#eee",
+            })
+        }
+        
         else{
             tarjetaClub()
         }
