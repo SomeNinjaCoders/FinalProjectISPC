@@ -1,5 +1,6 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,400&display=swap');
 
 * {
 	margin: 0;
@@ -53,7 +54,6 @@ svg {
 .hover-3 {
 	--b: 0.1em; /* GROSOR */
 	--c: #1095c1; /* COLOR */
-
 	color: #0000;
 	padding-block: var(--b);
 	background: linear-gradient(var(--c) 50%, #000 0) 0%
@@ -178,7 +178,7 @@ h4{
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	size: 18px;
+	font-size: 18px;
 }
 
 #nuevatemp{
