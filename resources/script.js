@@ -34,8 +34,9 @@ function iniciaSesion(){
 
 
 
+
 function formulario(){
-    const socio = document.querySelector("#agregar-socio")
+    const socio = document.getElementById("agregar-socio")
     const usuarios = []
     
 
@@ -81,5 +82,16 @@ function formulario(){
     })
 }
 
-formulario();
-iniciaSesion();
+function orden() {
+    if (window.location.href.includes("login.html")) {
+        
+        iniciaSesion();
+    } else if (window.location.href.includes("newsocio.html")) {
+        
+        formulario();
+    } else {
+        console.log("No estás en paginas de registro");
+    }
+}
+
+orden();
