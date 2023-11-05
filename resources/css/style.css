@@ -280,10 +280,26 @@ h4{
 
 /*LOGIN*/
 
+#link-new{
+	display: flex;
+	justify-content: center;
+
+}
+
+#link-new:hover{
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+	font-weight: bold;
+
+	
+}
+
 .contenedor, #contenedor, #contenedor-shop{
 	display: flex;
 	flex-direction: row;
 	margin: 20px 50px;
+	justify-content: center;
 }
 
 .iniciar-sesion{

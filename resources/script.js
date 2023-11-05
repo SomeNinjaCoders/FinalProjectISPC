@@ -1,23 +1,7 @@
-
-
 function iniciaSesion(){
     const socio = document.querySelector("#socio")
-    const formulario = document.querySelector("#formulario-login")
-    const tarjeta = document.querySelector(".tarjeta-sesion")
     const usulos = []
     
-
-    const tarjetaBienvenida = () => {
-        formulario.style.display = "none"
-        for( const usulo of usulos){
-        tarjeta.innerHTML = `
-        <div id="nueva-tarjeta">
-            <h2>¡Bienvenid@ de nuevo! 
-        </div>
-        `
-        tarjeta.style.display = "flex"
-    }
-    }
 
     socio.addEventListener("submit",(event) => {
         
@@ -42,7 +26,7 @@ function iniciaSesion(){
         
             }
         else{
-            tarjetaBienvenida()
+            window.location.href = "index.html"
         }
 
     })
@@ -50,31 +34,10 @@ function iniciaSesion(){
 
 
 
-
-
 function formulario(){
     const socio = document.querySelector("#agregar-socio")
-    const formulario = document.querySelector("#formulario")
-    const tarjeta = document.querySelector(".tarjeta-socio")
     const usuarios = []
     
-
-    const tarjetaClub = () => {
-        formulario.style.display = "none"
-        for( const usuario of usuarios){
-        tarjeta.innerHTML = `
-        <div id="nueva-tarjeta">
-            <h2>${usuario.nombre} ${usuario.apellido}</h2>
-
-            <h3>¡Bienvenid@ a nuestro club!</h3>
-
-            
-            
-        </div>
-        `
-        tarjeta.style.display = "flex"
-    }
-    }
 
     socio.addEventListener("submit",(event) => {
         
@@ -112,7 +75,7 @@ function formulario(){
         }
         
         else{
-            tarjetaClub()
+            window.location.href = "login.html"
         }
 
     })
