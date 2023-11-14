@@ -31,7 +31,7 @@ https://someninjacoders.github.io/FinalProjectISPC/
 - :INSTITUTO POLITECNICO CORDOBA.
 - :trophy: .
 - :technologist: .
-- :computer: I am a competitive programmer at `Codeforces`, `Atcoder`, `Leetcode`, `Codechef`, `Google Contests`.
+- :computer:  `Codeforces`, `Atcoder`, `Leetcode`, `Codechef`, `Google Contests`.
 - :student: `.
 - :nerd_face: `.
 - :thinking: ).
