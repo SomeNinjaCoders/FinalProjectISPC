@@ -238,5 +238,5 @@ https://someninjacoders.github.io/FinalProjectISPC/
 ## 🐍 A Snake Eating my Contributions Graph
 	
 <p align = "center">
-	<>
+	<   >
 </p>
