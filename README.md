@@ -380,17 +380,16 @@ https://someninjacoders.github.io/FinalProjectISPC/
         <img src="https://badgen.net/static/favicon.png" img align="center" height="50"
         alt="badgen"/></a>
       <a href="https://shields.io/" target="blank">
-        <img src="https://raw.githubusercontent.com/badges/shields/master/readme-logo.svg" img align="center" height="50"
-        alt="shields.io"/></a>
+        <img src="/></a>
     </p>
     </samp>
   </div>
 </details> 
 <details open>
-  <summary>😒 random stuff</summary>
+  <summary>😒 </summary>
 <div>
 <samp>
-<h2 align="center"> just an ascii art of me holding an umbrella </h2>
+<h2 align="center"> </h2>
 </samp>
 </div>
 
