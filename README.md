@@ -371,7 +371,7 @@ https://someninjacoders.github.io/FinalProjectISPC/
   <summary>👷‍♂️ create your own custom badge</summary>
   <div>
   <samp>
-    <h2 align="center">u can try using these website for creating your own custom badge</h2>
+    <h2 align="center">u can try using these website /h2>
     <p align="center">
       <a href="https://forthebadge.com/generator/" target="blank">
         <img src="https://forthebadge.com/images/mark.svg" img align="center" height="50"
